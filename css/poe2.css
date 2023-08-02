@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.form-control {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+label {
+    flex-basis: 120px;
+    font-weight: bold;
+}
+
+input[type="password"] {
+    flex-grow: 1;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    outline: none;
+}
+
+.strength {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5px;
+    margin-top: 5px;
+    height: 10px;
+}
+
+.strength span {
+    flex-grow: 1;
+    height: 100%;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+.weak {
+    background-color: #ff4757;
+}
+
+.medium {
+    background-color: #ffa502;
+}
+
+.strong {
+    background-color: #2ed573;
+}* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.form-control {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+label {
+    flex-basis: 120px;
+    font-weight: bold;
+}
+
+input[type="password"] {
+    flex-grow: 1;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    outline: none;
+}
+
+.strength {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5px;
+    margin-top: 5px;
+    height: 10px;
+}
+
+.strength span {
+    flex-grow: 1;
+    height: 100%;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+.weak {
+    background-color: #ff4757;
+}
+
+.medium {
+    background-color: #ffa502;
+}
+
+.strong {
+    background-color: #2ed573;
+}

@@ -1,0 +1,54 @@
+.div1 {
+    background-color: rgba(255, 255, 255, 0.);
+}
+
+hgroup {
+    text-align: center;
+}
+
+h1 {
+    transition: ease-in-out 0.5s;
+    transition-duration: 10s;
+    transform: rotateX(60deg);
+    transform: rotateY(60deg);
+    transform: rotateZ(30deg);
+    animation-name: myAnimation;
+}
+
+@keyframes myAnimation {
+
+    
+    
+}
+
+table {
+    border: solid;
+    border-radius: 2px;
+    border-color: black;
+}
+
+td {
+    border: solid;
+    border-radius: 1px;
+    border-color: black;
+}
+
+img{
+    width: 180px;
+    height: 100px;
+    background-color: beige;
+    border: solid;
+    border-color: aliceblue;
+}
+
+@media screen and (max-width: 400px) {
+	h1 {
+		color: red;
+    }
+}
+
+@media screen and (min-width: 400px) and (max-width: 690px) and () {
+    h1 {
+        color: bisque;
+    }
+}

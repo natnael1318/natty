@@ -1,0 +1,180 @@
+.choose{
+    
+   
+    
+    padding-left: 100%;
+    list-style-type: none;
+    width:fit-content;
+    height: fit-content;
+    
+       }
+   .list1{
+    
+    list-style-type: none;
+    display: flex;
+    
+   }
+   .list1 li{
+    
+   width: fit-content;
+    font-family: Arial, Helvetica;
+    padding: 10px;
+    margin: 0px;
+   
+   }
+    h2{
+        text-align: center;
+    }
+    select
+{
+    margin-left: 300px;
+}
+  .row1{
+    display: inline;
+
+    padding-left: 0px;
+    /* position: relative; */
+    margin-left: auto;
+    position: relative;
+    padding: 10px;
+    width: 100%;
+  }  
+   .picture{
+    margin-top: 25px;
+    width: 100%;
+background-image:url(../music/first\ video.webm)
+ ;    
+   }
+
+
+
+.row1 ul{
+  
+    margin:0px 0px 0px 0px ;
+    padding: 0px;
+    
+ 
+}
+.row1 li{
+    display:inline-block;
+}
+.row1 a  {
+    width: 65px;
+    display: relative;
+    padding: 10px;
+    font-size: 17px ;
+    font-family: Arial, Helvetica;
+    text-decoration: none;
+    color: black;
+   
+    
+}
+#row2{
+    margin-left: 600px;
+    align-content: center;
+
+}
+.side1{
+    margin-left: 320px;
+    align-content: center;
+}
+.image{
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 290px;
+    margin-bottom: 15px;
+}
+margin1{
+    margin-left: -200px;
+}
+.row1 a:hover{
+    border-radius: 20px;
+    background-color: black;
+    transition: 0.4s;
+    color: white;
+    
+}
+.row11{
+    display: flex;
+
+}
+h1{
+    font-size: 40px;
+    text-align: center;
+}
+#a{
+    text-align: center;
+    float: center;
+    margin-left: 300px;
+}
+.row111{
+    float: right;
+    display: inline;
+    margin-top: 30%;
+    padding: -60px;
+    width: 2px;
+}
+.mobile{
+    list-style-type:none;
+    display: flex;
+}
+.mobile a{
+    width: 65px;
+    display: relative;
+    padding: 10px;
+    font-size: 17px ;
+    font-family: Arial, Helvetica;
+    text-decoration: none;
+    color: black;
+
+}
+
+.wrapper {
+    display: grid;
+    position: relative;
+    width: 100%;
+    grid-template-columns: repeat(3, 1fr); 
+
+    grid-auto-rows: minmax(100px, auto);
+}
+.one {
+    grid-column: 1;
+    grid-row: 1;
+    padding: 30px;
+    border-radius: 70px;
+    image-
+    
+}
+.two {
+    grid-column: 2;
+    grid-row: 1 ;
+    padding: 3px;
+    margin: 0%;
+    border-radius: 70px;
+} 
+.three {
+    grid-column: 3;
+    grid-row: 1 ;
+    padding: 0px;
+    margin: 0%;
+    border-radius: 20px;
+    width: 30px;
+    height: 20px;
+}
+
+
+.five {
+    grid-column: 2;
+    grid-row:2;
+    padding: 30px;
+    border-radius: 20px;
+}
+.six {
+    grid-column: 3;
+    grid-row:2;
+    padding: 1%;
+    border-radius: 20px;
+    
+}
+
+ 

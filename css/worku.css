@@ -1,0 +1,36 @@
+.hgroup{
+    background-color: gray;
+}
+.input{align-content:left;
+    display: flex;
+    width: fit-content;
+    border: solid;
+    border-width: 0.5;
+    border-color: rgb(102, 102, 199);
+    align-content: center;
+    align-self: center;
+    align-items: center;
+    justify-self:center;
+    justify-content: center;
+    justify-items: center;
+    background-color: bisque;
+    margin-left: 30%; 
+}
+.form{
+    padding-left: 10%;
+   
+    background-color: greenyellow;
+    
+    
+    border: solid;
+    
+    border-color: rgb(102, 102, 199);
+    align-content: center;
+    align-self: center;
+    align-items: center;
+    justify-self:center;
+    justify-content: center;
+    justify-items: center;
+
+    
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>javascript</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <script>
+        function myfunction(){
+        document.getElementById("demo").innerHTML="+day()"+day();
+        }
+   var day;
+   
+   switch(new Date().getDay())
+   {
+    case 0:
+    day="monday";
+     break;
+    case 1:
+    day="tuesday";
+     break;
+    case 2:
+    day="wednesday";
+     break;
+    case 3:
+     day="thursday";
+     break;
+    case 4:
+    day="saturday";
+    break;
+    case 5:
+    day="sunday";
+    break;
+
+
+
+   }
+//    let a="0";
+//    if(a>=90&&a<=99){console.log(A+)};
+//    else if(a>=85&&a<=89){console.log(A);};
+for(let num=0;num<=100;num++){
+    console.log("sum is"+num);
+
+}
+</script>
+<p id="demo"> </p>
+</body>
+</html>
